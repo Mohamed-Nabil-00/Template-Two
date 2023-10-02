@@ -127,6 +127,7 @@ header nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    z-index: 999;
 }
 header nav .mobile-menu {
     color: white;
@@ -153,6 +154,7 @@ header nav ul {
         left: 0;
         width: 100%;
         background-color: rgba(0, 0, 0, 50%);
+        z-index: 999;
     }
     header nav .mobile-menu:hover + ul a {
         padding: 15px 30px;
